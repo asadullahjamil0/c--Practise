@@ -33,7 +33,7 @@ int main()
     gs1.name = "AsadUllah Jamil";
     gs1.age = 34;
     gs1.rollNo = 4590;
-    gs1.researchArea = "Artificial Intelligence";
+    gs1.researchArea = "Artificial Intelligence"; 
     gs1.getInfo();
 
     return 0;
