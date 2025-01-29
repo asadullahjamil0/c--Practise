@@ -7,19 +7,19 @@ private:
     double salary;
 
 public:
-    Teacher(string n, string d, string pl, double s)
+    Teacher(string name, string dept, string programmingLanguage)
     {
-        name = n;
-        dept = d;
-        programmingLanguage = pl;
+        this->name = name;
+        this->dept = dept;
+        this->programmingLanguage = programmingLanguage;
     }
     string name;
     string dept;
     string programmingLanguage;
 
-    void setSal(double s)
+    void setSal(double salary)
     {
-        salary = s;
+        this->salary = salary;
     }
     void getSal()
     {
